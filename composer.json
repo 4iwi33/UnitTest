@@ -4,5 +4,11 @@
             "Services\\": "services",
             "App\\": "src"
         }
+    },
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "scripts": {
+        "test": "phpunit --testsuite alltests"
     }
 }

@@ -5,4 +5,4 @@ use App\Str;
 
 $str = new Str();
 
-echo $str->compare("Hello", "Hi")*1;
+echo $str->compare("Hello", "Hi") * 1;
